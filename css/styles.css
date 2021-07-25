@@ -1,0 +1,75 @@
+div#box div{
+	display: inline-block;
+	width: 40%;
+}
+div#box div.box-droite{
+	color: white;
+	vertical-align: top;
+}
+div#box div.box-gauche{
+	margin-top: 40px;
+	margin-left: 100px;
+	width: 30%;
+}
+nav.menu-nav ul li.button{
+	list-style-type: none;
+	display: inline-block;
+}
+nav.menu-nav ul li.button a{
+	color:  #ffffff;
+	background-color: #131414;
+	padding: 10px;
+	text-decoration: none;
+}
+nav.menu-nav ul li.button:hover a{
+	color: #131414;
+	background-color: white;
+	transition: 1.0s all;
+}
+body{
+	background: url("https://cdn.wallpapersafari.com/76/82/x1M7v0.png") no-repeat;
+	background-size: 100%;
+	background-color: black; 
+}
+
+p.direction_of_link{
+	color:  white;
+	font-size: 20px;
+}
+
+p.insitation{ 
+	color: white;
+	font-size: 20px;
+}
+
+h1{
+	color: white;
+	font-size: 25px;
+}
+p.beta{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+}
+a.principal{
+	color: white;
+	font-size: 20px;
+	opacity: 0.7;
+	margin: 50px;
+	text-decoration: none;
+}
+li.button{
+	font-size: 25px;
+	margin-right: 45px;
+}
+footer.bas-de-page{
+	color: white;
+	display: inline-block;
+	font-size: 20px;
+	margin-left: 50px;
+	margin-top: 450px;
+}
+iframe{
+	padding-top: 20px;
+	padding-right: 100px;
+}
